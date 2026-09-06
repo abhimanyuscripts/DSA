@@ -1,9 +1,7 @@
 let arr = [1,2,3,4,5];
 let k = 21;
 
-if(k>=arr.length){
-    k=k%arr.length;
-}
+k=k%arr.length;
 for(j=1;j<=k;j++){
     let temp = arr[0];
     for (i=1;i<=arr.length-1;i++){
